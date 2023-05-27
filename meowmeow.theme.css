@@ -1,0 +1,31 @@
+/**
+ * @name meowmeow
+ * @author Disease#5663
+ * @version 1.0.0
+ * @description Based on Outlook Web.
+ * @source https://github.com/maenDisease/Outlook
+ * @invite BShu37e4jg
+ * @website https://maendisease.github.io/
+ * @authorId 678469587444170762
+ * @BDEditor Outlook
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@100;300;400;500;700&display=swap');
+@import url('https://maendisease.github.io/Outlook/Outlook.css');
+@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
+
+:root {
+  --home-image: url('https://i.imgur.com/CrrmS1J.jpg');
+  --accent-hue: 17;
+  --accent-saturation: 0%;
+  --accent-brightness: 0%;
+  --gradient-toggle: 1;
+  --gradient-hue-shift: 0;
+  --gradient-saturation: 0%;
+  --gradient-deg: 141deg;
+  --customFont: Comfortaa;
+}
+
+/* Any custom CSS below here */
+
+
