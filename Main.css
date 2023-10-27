@@ -28,6 +28,9 @@
 /* == [] == */
 @import url("https://raw.githubusercontent.com/SEELE1306/Modular/release/src/assets/chatarea.css");
 
+/* == [Accent Swap] == */
+@import url("https://dablulite.github.io/css-snippets/AccentSwap/import.css");
+
 /* Custom Accent Color */
 :root:root {
     --accent-h: 24.9;
