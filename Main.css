@@ -144,7 +144,7 @@ width: fit-content
 .userPopoutOverlayBackground-3A0Pcz:has(#account) > *:not(#account) {
 display: none;
 }
-/* Blurple Mention Highlight */
+/* Change Mention Highlight to Accent Color */
 .theme-dark, .theme-light {
   --background-mentioned: var(--background-message-highlight) !important;
   --background-mentioned-hover: var(--brand-experiment-10a) !important;
