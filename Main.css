@@ -1,4 +1,4 @@
-/* == [Minimal Addon cards] == */
+	/* == [Minimal Addon cards] == */
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
 
 /* == [Better Status Picker] == */
@@ -49,7 +49,7 @@
 	/* color of accented buttons when clicked */
 	--accent-5: hsl(25.9, 43.9%, 35.9%);
 	/* color of mentions and messages that mention you */
-	--mention: hsla(25.9, 43.9%, 25.9%);
+	--mention: hsla(25.9, 43.9%, 42.5%);
 	/* color of mentions and messages that mention you when hovered */
 	--mention-hover: hsla(25.9, 43.9%, 49.2%);
 }
