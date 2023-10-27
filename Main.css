@@ -1,24 +1,39 @@
+/* == [Minimal Addon cards] == */
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
+
+/* == [Better Status Picker] == */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
+
+/* == [Spotify Profile Activity Redesign] == */ 
 @import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
+
+/* == [Avatar Decor Checkmark] == */
 @import url("https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/main.css");
+
+/* == [Guildlist Change] == */ 
 @import url("https://seele1306.github.io/Snippets/GuildList/import.css");
+
+/* == [User Area Reimagined] == */ 
 @import url("//dablulite.github.io/css-snippets/UserReimagined/import.css");
-@import url(https://seele1306.github.io/Modular/src/assets/toolbarhide.css); 
+
+/* == [Toolbar Hide] == */
+@import url("https://seele1306.github.io/Modular/src/assets/toolbarhide.css"); 
+
+/* == [Chat bubbles] == 
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/ChatBubbles/import.css");
+
+/* == [Better Profiles] == */
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css");
+
+/* == [] == */
 @import url("https://raw.githubusercontent.com/SEELE1306/Modular/release/src/assets/chatarea.css");
 
-
-
-
-
+/* Custom Accent Color */
 :root:root {
     --accent-h: 24.9;
     --accent-s: 52.7%;
     --accent-l: 33.1%;
 }
-
 /*No profile effects*/
 .profileEffects-km5xa2 {
   display:none;
