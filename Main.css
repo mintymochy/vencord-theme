@@ -1,60 +1,61 @@
-	/* == [Minimal Addon cards] == */
+/* == [Minimal Addon cards] == */
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
 
 /* == [Better Status Picker] == */
-@import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/BetterStatusPicker.css");
 
 /* == [Spotify Profile Activity Redesign] == */ 
-@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/SpotifyActivityRedesign.css");
 
 /* == [Avatar Decor Checkmark] == */
-@import url("https://minidiscordthemes.github.io/Snippets/AvatarDecorationCheckmark/main.css");
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/Avidecorcheckmarks.css");
 
-/* == [Guildlist Change] == */ 
+/* == [Guildlist Change] == */
 @import url("https://seele1306.github.io/Snippets/GuildList/import.css");
 
-/* == [User Area Reimagined] == */ 
-@import url("//dablulite.github.io/css-snippets/UserReimagined/import.css");
+/* == [User Area Reimagined] == */
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/UserReimaginedUpdated");
 
 /* == [Toolbar Hide] == */
-@import url("https://seele1306.github.io/Modular/src/assets/toolbarhide.css"); 
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/Toolbarhideupdated.css"); 
 
 /* == [Chat bubbles] == 
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/ChatBubbles/import.css");
 
-/* == [Better Profiles] == */
+/* == [Better Profiles] == 
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css");
 
-/* == [] == */
+/* == [Consitstent Chatbar] == */
 @import url("https://raw.githubusercontent.com/SEELE1306/Modular/release/src/assets/chatarea.css");
 
-/* == [Accent Swap] == */
-@import url("https://dablulite.github.io/css-snippets/AccentSwap/import.css");
+/* == [USRPFP REBORN] == */
+@import url("//raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
 
-/* Custom Accent Color */
-:root:root {
-    --accent-h: 24.9;
-    --accent-s: 52.7%;
-    --accent-l: 33.1%;
+/* ==[My Custom Font] == */
+@import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
+:root {
+  --font-primary: "Dank Mono";
+  --font-code: "Dank Mono Italic"; 
 }
+/* Accent Color */
 :root {
 	/* color of links */
-	--accent-1: hsl(25.9, 43.9%, 59.2%);
+	--accent-1: hsl(26, 32%, 51%);
 	/* color of unread dividers and some indicators */
-	--accent-2: hsl(25.9, 43.9%, 25.9%);
+	--accent-2: hsl(26, 46%, 47%);
 	/* color of accented buttons */
-	--accent-3: hsl(25.9, 43.9%, 25.9%);
+	--accent-3: hsl(26, 44%, 47%);
 	/* color of accented buttons when hovered */
-	--accent-4: hsl(25.9, 43.9%, 35.9%);
+	--accent-4: hsl(26, 43%, 40%);
 	/* color of accented buttons when clicked */
 	--accent-5: hsl(25.9, 43.9%, 35.9%);
 	/* color of mentions and messages that mention you */
-	--mention: hsla(25.9, 43.9%, 42.5%);
+	--mention: rgba(143, 94, 56, 0.154);
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: hsla(25.9, 43.9%, 49.2%);
+	--mention-hover: rgb(156, 102, 61);
 }
 /*No profile effects*/
-.profileEffects-km5xa2 {
+[class*="profileEffects"] {
   display:none;
 }
 /*better folders*/
@@ -66,20 +67,24 @@
 div[class*="lineClamp2Plus"] {
     display: block;
 }
+/* not circle avatars*/
+[class^="avatar_"] {
+  border-radius: 10%;
+}
 /* removes the "edited" text */
 [class^="edited-"] {
   display: none;
 }
-.message-2CShn3 {
+.message__80c10 {
     margin-left: 16px;
     border-radius: 10px;
 }
-/*message headers coloration*/
+/*message headers & bold font coloration*/
 [class*=messageContent] :is(h1, h2, h3) {
-  color: #dbdce8;
+  color: #966e51;
 }
 [class*=messageContent] strong {
-    color: #dbdce8;
+    color: #946b4a;
 }
 /* Add danger colours to dangerous user actions */
 #user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
@@ -151,16 +156,16 @@ div[class*="lineClamp2Plus"] {
     margin-left: -6px;
 }
 /*remove stuff from user panel*/
-.accountProfilePopoutWrapper-3GskID {
+.accountProfilePopoutWrapper_af829a {
 left: 0
 }
-.accountProfilePopoutWrapper-3GskID [class*=userPopout] {
+.accountProfilePopoutWrapper_af829a [class*=userPopout] {
 margin: 0;
 width: fit-content
 }
-.accountProfilePopoutWrapper-3GskID .section-28YDOf,
-.userPopoutInner-nv9Y92:has(#account) > *:not(:has(#account)),
-.userPopoutOverlayBackground-3A0Pcz:has(#account) > *:not(#account) {
+.accountProfilePopoutWrapper_af829a .section__6f61e,
+.userPopoutInner_f545a3:has(#account) > *:not(:has(#account)),
+.userPopoutOverlayBackground_d8afa4:has(#account) > *:not(#account) {
 display: none;
 }
 /* Change Mention Highlight to Accent Color */
@@ -200,54 +205,62 @@ display: none;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.userPopoutOverlayBackground-3A0Pcz {
+.userPopoutOverlayBackground_d8afa4 {
   max-height: 60vh;
 }
 /*Minifiedmemberlist*/
-.members-2y1nVj,
-.container-2vWgD2 {
+.members__9f47b,
+.container_b2ce9c {
     width: 64px;
     transition: 0.3s ease;
 }
-.membersWrap-3GwLFp {
+.membersWrap__90226 {
     min-width: 0;
     width: min-content;
 }
-.container-2vWgD2:hover,
-.container-2vWgD2:hover .members-2y1nVj {
+.container_b2ce9c:hover,
+.container_b2ce9c:hover .members__9f47b {
       width: 400px;
 }
-.member-2gU6Ar {
+.member_aa4760 {
     max-width: unset;
 }
 /* server list ting */
-.item-2LIpTv {
+.item_f9d377 {
   	max-height: 40px;
 	background-color: #fff;
 	border-radius: 0;
 }
+/*replace edit symbol*/
+.edited_b20dd9 {color: rgba(0,0,0,0)}
+.edited_b20dd9::before {
+        content: "(✎)";
+        color: var(--text-muted);
+        font-size: 0.625rem;
+        font-weight: 400;
+        line-height: 1;
+}
 /* accent swap extras 
 /* replace ping/strikethrough red */
-.numberBadge-37OJ3S /* dm unread number */,
-.mention-3XBnnZ /* "NEW" serverlist indicator */ {
+.numberBadge__50328 /* dm unread number */,
+.mention__1afd3 /* "NEW" serverlist indicator */ {
 	background: var(--accent-2) !important;
 }
-.divider-2rZFJK /* unread dividers */ {
+.divider_b9338f /* unread dividers */ {
 	--divider-color: var(--accent-2);
 }
-.strikethrough-3nXjYr /* mute button strikethrough */,
-.strikethrough-4IgyqA /* channel mute button strikethrough */ {
+.strikethrough__29b20 /* mute button strikethrough */,
+.strikethrough__3c54e /* channel mute button strikethrough */ {
 	color: var(--accent-2) !important;
 }
 path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 	fill: var(--accent-2) !important;
 }
-
 /* replace blurple */
-.expandedFolderIconWrapper-3RwQpD svg /* folder icons */ {
+.expandedFolderIconWrapper__458cf svg /* folder icons */ {
 	color: var(--accent-2) !important;
 }
-.iconBadge-3Mmg92 /* dm button hover fill */ {
+.iconBadge_cc5031 /* dm button hover fill */ {
 	background: var(--accent-2) !important;
 }
 .theme-dark {
@@ -263,9 +276,9 @@ path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 	--mention-background: var(--mention);
 	--mention-foreground: var(--accent-2);
 	--background-message-highlight: var(--mention);
-	--background-message-highlight-hover: var(--mention-hover);
+	--background-message-highlight-hover: var(--mention-hover) !important;
 }
-.container-1QtPKm.checked-16gMAN /* settings checkbuttons */ {
+.container__871ba.checked__6bdb0 /* settings checkbuttons */ {
 	background: var(--accent-3) !important;
 }
 
@@ -274,7 +287,7 @@ path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 	--background-mentioned: var(--mention);
 	--background-mentioned-hover: var(--mention-hover);
 }
-.mentioned-Tre-dv:before /* mention message left edge */ {
+.mentioned__58017:before /* mention message left edge */ {
 	background: var(--accent-3) !important;
 }
 
@@ -286,11 +299,62 @@ path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 	--green-530: var(--accent-5); /* green button click */
 	--text-positive: var(--accent-1);
 }
-.wrapper-3Un6-K rect[fill="#23a55a"]  /* replace green online circles */ {
+.wrapper_edb6e0 rect[fill="#23a55a"]  /* replace green online circles */ {
 	fill: var(--accent-2) !important;
 }
 
 /* reset this back to green because its an image :( */
-.icon-2O29O0 {
+.icon__28d6c {
 	background-color: #3ba55c;
+}
+/*Mentaion hover color */
+:root:root {
+    --accent-h: 26;
+    --accent-s: 32%;
+    --accent-l: 51%;
+    --brand-500-hsl: var(--accent-h) calc(var(--saturation-factor, 1)*var(--accent-s)) var(--accent-l);
+}
+/* bar like channel selector */
+:root {
+    --color-h: 26;
+    --color-s: 32%;
+    --color-l: 51%;
+    /*  */
+    --size: 3px;
+    --radius: 0px;
+    /*  */
+    --bg-color: calc(var(--color-h)) calc(var(--color-s)) calc(var(--color-l));
+}
+
+/* the bar HOVER*/
+:not([class*=container_]) > ul > [class*=containerDefault_]:hover{
+    /* background-color: hsl(40, 40%, 40%); */
+    /* background-color: var(--bg-color); */
+    background-color: hsla(31, 36%, 21%, 0.454);
+    border-left: var(--size) solid hsla(29, 35%, 31%, 0.924);
+    border-radius: 0px;
+}
+/* the bar  SELECTED */
+:not([class*=container_]) > ul > [class*=containerDefault_][class*=selected_]{
+    background-color: hsla(21, 26%, 24%, 0.431); 
+    border-left: var(--size) solid hsla(26, 40%, 19%, 0.861);
+    border-radius: 0px;
+}
+:not([class*=container_]) > ul > [class*=containerDefault_][class*=selected_] > div > div > [class*="link_"] > [class*="emojiColorFill_"]
+{
+  margin-left: -30px;
+  margin-top: 0px;
+} 
+
+:not([class*=container_]) > ul > [class*=containerDefault_] > div > div > [class*="link_"]
+{
+  background: none;
+} 
+:not([class*=container_]) > ul > [class*=containerDefault_] > div > div > div > [class*="link_"] {
+    background: none;
+}
+:not([class*=container_]) > ul > [class*=containerDefault_][class*="wrapper_"],
+[class*=container_] > ul > [class*=containerDefault_][class*="wrapper_"] > [class*="link_"]
+{
+    background: none;
 }
