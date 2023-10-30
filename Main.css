@@ -2,22 +2,22 @@
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
 
 /* == [Better Status Picker] == */
-@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/BetterStatusPicker.css");
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/BetterStatusPicker.css");
 
 /* == [Spotify Profile Activity Redesign] == */ 
-@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/SpotifyActivityRedesign.css");
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/SpotifyActivityRedesign.css");
 
 /* == [Avatar Decor Checkmark] == */
-@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/Avidecorcheckmarks.css");
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Avidecorcheckmarks.css");
 
 /* == [Guildlist Change] == */
 @import url("https://seele1306.github.io/Snippets/GuildList/import.css");
 
 /* == [User Area Reimagined] == */
-@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/UserReimaginedUpdated");
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/UserReimaginedUpdated");
 
 /* == [Toolbar Hide] == */
-@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/Toolbarhideupdated.css"); 
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Toolbarhideupdated.css"); 
 
 /* == [Chat bubbles] == 
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/ChatBubbles/import.css");
