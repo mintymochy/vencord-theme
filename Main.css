@@ -63,12 +63,6 @@
 --guild-item-radius: 4px; /* 50px for round */
 --guild-item-spacing: 4px;
 }
-/* show masked links */
-.anchor_c8ddc0[title$=")"]::after {
-    font-size: 0.7rem;
-    content: " (" attr(href) ")";
-    filter: grayscale(0.4);
-}
 /*show full user bio*/
 div[class*="lineClamp2Plus"] {
     display: block;
@@ -363,4 +357,70 @@ path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 [class*=container_] > ul > [class*=containerDefault_][class*="wrapper_"] > [class*="link_"]
 {
     background: none;
+}
+/* show masked links */
+.anchor_c8ddc0[title$=")"]::after {
+    font-size: 0.7rem;
+    content: " (" attr(href) ")";
+    filter: grayscale(0.4);
+}
+/* edited text */
+.timestamp_cdbd93:not(.timestampInline__470e0, .timestampVisibleOnHover_e8cc6d) time::after {
+    content: " (" attr(aria-label) ")";
+    color: var(--text-muted);
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: lowercase;
+}
+.edited_b20dd9:not(.message-translate-indicator) {
+    display: none;
+}
+/* quoted replied messages */
+#app-mount .repliedMessage_e2bf4a {
+  position: absolute;
+  top: 25px;
+  left: 86px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-tertiary);
+  width: fit-content;
+  max-width: calc(60vw - 240px);
+  margin-left: -5px;
+  padding: 3px 5px;
+  border-radius: 0 4px 4px 4px;
+  box-sizing: border-box;
+}
+#app-mount .repliedMessage_e2bf4a > div {
+  position: relative;
+  z-index: 1;
+}
+#app-mount .repliedMessage_e2bf4a img.replyAvatar_cea07c {
+  display: none;
+}
+#app-mount .repliedMessage_e2bf4a img.emoji {
+  display: inline;
+}
+#app-mount .repliedMessage_e2bf4a .username_d30d99 {
+  margin-right: 5px;
+}
+#app-mount .repliedMessage_e2bf4a::before {
+  content: none;
+}
+#app-mount .repliedMessage_e2bf4a::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -4px;
+  z-index: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 0;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-tertiary);
+  transform: skewX(45deg);
+  border-bottom: none;
+  border-right: none;
+}
+#app-mount .repliedMessage_e2bf4a + .contents_f41bb2 .header__39b23 {
+  margin-bottom: 32px;
 }
