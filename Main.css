@@ -63,6 +63,12 @@
 --guild-item-radius: 4px; /* 50px for round */
 --guild-item-spacing: 4px;
 }
+/* show masked links */
+.anchor_c8ddc0[title$=")"]::after {
+    font-size: 0.7rem;
+    content: " (" attr(href) ")";
+    filter: grayscale(0.4);
+}
 /*show full user bio*/
 div[class*="lineClamp2Plus"] {
     display: block;
