@@ -1,14 +1,11 @@
-/* == [Setting Icons - Mwittrien] == */
-@import url("https://syndishanx.github.io/Discord-Dark/Imports/SettingsIcons.css");
-
 /* == [Minimal Addon cards] == */
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
 
 /* == [Better Status Picker] == */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/BetterStatusPicker.css");
 
-/* == [Spotify Profile Activity Redesign] == */ 
-@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/SpotifyActivityRedesign.css");
+/* == [Spotify Profile Activity Redesign - DaBluLite] == */ 
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
 
 /* == [Avatar Decor Checkmark] == */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Avidecorcheckmarks.css");
