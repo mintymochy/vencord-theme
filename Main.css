@@ -7,14 +7,20 @@
 /* == [Spotify Profile Activity Redesign - DaBluLite] == */ 
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
 
+/* == [No Light In Dark - DaBluLite] == */ 
+@import url(//dablulite.github.io/css-snippets/NoLightInDark/import.css);
+
+/* == [Account Dettails Grid - DaBluLite] == */
+@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+
 /* == [Avatar Decor Checkmark] == */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Avidecorcheckmarks.css");
 
 /* == [Guildlist Change] == */
 @import url("https://seele1306.github.io/Snippets/GuildList/import.css");
 
-/* == [User Area Reimagined] == */
-@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/UserReimaginedUpdated");
+/* == [User Area Reimagined - DaBlueLite] == */
+@import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
 
 /* == [Toolbar Hide] == */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Toolbarhideupdated.css"); 
@@ -25,8 +31,8 @@
 /* == [Better Profiles] == 
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css");
 
-/* == [Consitstent Chatbar] == */
-@import url("https://raw.githubusercontent.com/SEELE1306/Modular/release/src/assets/chatarea.css");
+/* == [Consitstent Chatbar - DaBluLite] == */
+@import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
 
 /* == [USRPFP REBORN] == */
 @import url("//raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
