@@ -1,6 +1,9 @@
 /* == [Minimal Addon cards] == */
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
 
+/*settings as overlay*/
+@import url("https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/SettingsAsOverlay.css");
+
 /* == [Better Status Picker] == */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
 
@@ -112,11 +115,6 @@ div[class*="lineClamp2Plus"] {
 .vc-smyn-suffix {
     color: currentColor !important;
     opacity: 0.5
-}
-/* make sticker smaller */
-.assetWrapper_f2e406 {
-    width: 11vh !important;
-    height: 11vh !important;
 }
 /* Jump To Present Bar Revamp */
 [class*="jumpToPresentBar"] {
