@@ -10,6 +10,9 @@
 /* == [Spotify Profile Activity Redesign - DaBluLite] == */ 
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
 
+/* == [better timestamps] == */
+@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
+
 /* == [No Light In Dark - DaBluLite] == */ 
 @import url(//dablulite.github.io/css-snippets/NoLightInDark/import.css);
 
@@ -43,8 +46,8 @@
 /* ==[My Custom Font] == */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
 :root {
-  --font-primary: "Dank Mono";
-  --font-code: "Dank Mono Italic"; 
+  --font-primary: "Cascadia Code";
+  --font-code: "Cascadia Code"; 
 }
 /* Accent Color */
 :root {
@@ -216,23 +219,6 @@ display: none;
 }
 .userPopoutOverlayBackground_d8afa4 {
   max-height: 60vh;
-}
-/*Minifiedmemberlist*/
-.members__9f47b,
-.container_b2ce9c {
-    width: 64px;
-    transition: 0.3s ease;
-}
-.membersWrap__90226 {
-    min-width: 0;
-    width: min-content;
-}
-.container_b2ce9c:hover,
-.container_b2ce9c:hover .members__9f47b {
-      width: 400px;
-}
-.member_aa4760 {
-    max-width: unset;
 }
 /* server list ting */
 .item_f9d377 {
