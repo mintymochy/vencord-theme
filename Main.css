@@ -1,8 +1,11 @@
 /* == [Minimal Addon cards] == */
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
 
-/*settings as overlay*/
+/* == [Settings Overlay] == */
 @import url("https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/SettingsAsOverlay.css");
+
+/* == [Message Bar Actions Hider - SEELE1306] == */
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
 
 /* == [Better Status Picker] == */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
@@ -10,7 +13,7 @@
 /* == [Spotify Profile Activity Redesign - DaBluLite] == */ 
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
 
-/* == [better timestamps] == */
+/* == [Better Timestamps - SEELE1306] == */
 @import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
 
 /* == [No Light In Dark - DaBluLite] == */ 
@@ -22,13 +25,13 @@
 /* == [Avatar Decor Checkmark] == */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Avidecorcheckmarks.css");
 
-/* == [Guildlist Change] == */
+/* == [Guildlist Change - SEELE1306] == */
 @import url("https://seele1306.github.io/Snippets/GuildList/import.css");
 
 /* == [User Area Reimagined - DaBlueLite] == */
 @import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
 
-/* == [Toolbar Hide] == */
+/* == [Toolbar Hide - SEELE1306] == */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Toolbarhideupdated.css"); 
 
 /* == [Chat bubbles] == 
