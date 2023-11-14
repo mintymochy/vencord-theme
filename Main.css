@@ -7,8 +7,8 @@
 /* Clean User Pop Out */
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/clean-user-popout.css);
 
-/* settings as overlay */
-@import url("https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/SettingsAsOverlay.css");
+/* settings modal */
+@import url("https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/SettingsModal/SettingsModal.theme.css");
 
 /* message actions hider */
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
