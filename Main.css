@@ -1,53 +1,49 @@
-/* == [Minimal Addon cards] == */
+/* Minimal Addon cards */
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
 
+/* Clean User Pop Out */
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/clean-user-popout.css);
-/* == [settings as overlay] == */
+
+/* settings as overlay */
 @import url("https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/SettingsAsOverlay.css");
 
 /* message actions hider */
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
 
-/* == [Better Status Picker] == */
+/* Better Status Picker */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
 
-/* == [Spotify Profile Activity Redesign - DaBluLite] == */ 
+/* Spotify Profile Activity Redesign - DaBluLite */ 
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
 
-/* == [better timestamps] == */
+/* Better Timestamps */
 @import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
 
-/* == [No Light In Dark - DaBluLite] == */ 
+/* No Light In Dark - DaBluLite */ 
 @import url(//dablulite.github.io/css-snippets/NoLightInDark/import.css);
 
-/* == [Account Dettails Grid - DaBluLite] == */
+/* Account Dettails Grid - DaBluLite*/
 @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
 
-/* == [Avatar Decor Checkmark] == */
+/* Avatar Decor Checkmark */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Avidecorcheckmarks.css");
 
-/* == [Guildlist Change] == */
+/* Guildlist Change */
 @import url("https://seele1306.github.io/Snippets/GuildList/import.css");
 
-/* == [User Area Reimagined - DaBlueLite] == */
+/* User Area Reimagined - DaBlueLite */
 @import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
 
-/* == [Toolbar Hide] == */
+/* Toolbar Hide */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Toolbarhideupdated.css"); 
 
-/* == [Chat bubbles] == 
-@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/ChatBubbles/import.css");
-
-/* == [Better Profiles] == 
+/* Better Profiles */
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css");
 
-/* == [Consitstent Chatbar - DaBluLite] == */
-@import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
-
-/* == [USRPFP REBORN] == */
+/* USRPFP REBORN */
 @import url("//raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
 
-/* ==[My Custom Font] == */
+/* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
 :root {
   --font-primary: "Cascadia Code";
