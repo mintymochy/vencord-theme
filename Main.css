@@ -1,10 +1,11 @@
 /* == [Minimal Addon cards] == */
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
 
-/* == [Settings Overlay] == */
+@import url(https://raw.githubusercontent.com/lumap/css-snippets/main/clean-user-popout.css);
+/* == [settings as overlay] == */
 @import url("https://minidiscordthemes.github.io/Snippets/SettingsAsOverlay/SettingsAsOverlay.css");
 
-/* == [Message Bar Actions Hider - SEELE1306] == */
+/* message actions hider */
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
 
 /* == [Better Status Picker] == */
@@ -13,7 +14,7 @@
 /* == [Spotify Profile Activity Redesign - DaBluLite] == */ 
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
 
-/* == [Better Timestamps - SEELE1306] == */
+/* == [better timestamps] == */
 @import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
 
 /* == [No Light In Dark - DaBluLite] == */ 
@@ -25,13 +26,13 @@
 /* == [Avatar Decor Checkmark] == */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Avidecorcheckmarks.css");
 
-/* == [Guildlist Change - SEELE1306] == */
+/* == [Guildlist Change] == */
 @import url("https://seele1306.github.io/Snippets/GuildList/import.css");
 
 /* == [User Area Reimagined - DaBlueLite] == */
 @import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
 
-/* == [Toolbar Hide - SEELE1306] == */
+/* == [Toolbar Hide] == */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Toolbarhideupdated.css"); 
 
 /* == [Chat bubbles] == 
@@ -121,67 +122,6 @@ div[class*="lineClamp2Plus"] {
 .vc-smyn-suffix {
     color: currentColor !important;
     opacity: 0.5
-}
-/* Jump To Present Bar Revamp */
-[class*="jumpToPresentBar"] {
-    display: contents;
-}
-
-[class*="jumpToPresentBar"] > button:first-child {
-    display: none;
-}
-
-[class*="jumpToPresentBar"] > button:last-child {
-    position: absolute;
-    z-index: 1;
-    bottom: 24px;
-    right: 22px;
-    padding: 8px !important;
-    height: auto;
-    background-color: #2e353b20;
-    box-shadow: var(--elevation-high);
-    border-radius: 100px;
-    display: flex;
-    font-size: 0px;
-    color: transparent;
-    transition: font-size .2s .1s, color .2s, padding .4s .1s;
-}
-
-[class*="jumpToPresentBar"] > button svg {
-    order: -1;
-    margin: 0px;
-    height: 24px;
-    width: 24px;
-    top: auto;
-    margin-right: 0px;
-    margin-left: 0px;
-    color: #FFFFFF;
-    transition: margin .6s;
-}
-
-[class*="jumpToPresentBar"]:hover > button {
-    padding: 8px 18px !important;
-    font-size: 14px;
-    color: #FFFFFF;
-    transition: font-size .2s, color .2s .1s, padding .4s;
-}
-
-[class*="jumpToPresentBar"]:hover > button svg {
-    margin-right: 2px;
-    margin-left: -6px;
-}
-/*remove stuff from user panel*/
-.accountProfilePopoutWrapper_af829a {
-left: 0
-}
-.accountProfilePopoutWrapper_af829a [class*=userPopout] {
-margin: 0;
-width: fit-content
-}
-.accountProfilePopoutWrapper_af829a .section__6f61e,
-.userPopoutInner_f545a3:has(#account) > *:not(:has(#account)),
-.userPopoutOverlayBackground_d8afa4:has(#account) > *:not(#account) {
-display: none;
 }
 /* Change Mention Highlight to Accent Color */
 .theme-dark, .theme-light {
