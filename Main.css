@@ -7,13 +7,13 @@
 /* Clean User Pop Out */
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/clean-user-popout.css);
 
-/* Settings Icons */
+/* Settings Icons 
 @import url("https://minidiscordthemes.github.io/SettingsIcons/SettingsIcons.theme.css");
 
 /* settings modal */
 @import url("https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/SettingsModal/SettingsModal.theme.css");
 
-/* message actions hider */
+/* message actions hider 
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
 
 /* Better Status Picker */
@@ -22,16 +22,13 @@
 /* Spotify Profile Activity Redesign - DaBluLite */ 
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
 
-/* Better Timestamps */
-@import url(https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageUltilities/TimestampBubbles/import.css);
-
 /* No Light In Dark - DaBluLite */ 
 @import url(//dablulite.github.io/css-snippets/NoLightInDark/import.css);
 
 /* Account Dettails Grid - DaBluLite*/
 @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
 
-/* Avatar Decor Checkmark */
+/* Avatar Decor Checkmark 
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Avidecorcheckmarks.css");
 
 /* Guildlist Change */
@@ -46,9 +43,10 @@
 /* Better Profiles 
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css");
 
-/* USRPFP REBORN */
+/* USRPFP REBORN 
 @import url("//raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
-
+/* Consistent chatbar */
+@import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
 :root {
@@ -84,10 +82,6 @@
 /*show full user bio*/
 div[class*="lineClamp2Plus"] {
     display: block;
-}
-/* not circle avatars*/
-[class^="avatar_"] {
-  border-radius: 10%;
 }
 /* removes the "edited" text */
 [class^="edited-"] {
