@@ -98,6 +98,10 @@ div[class*="lineClamp2Plus"] {
 [class*=messageContent] strong {
     color: #946b4a;
 }
+/* fix for Channels and roles menu */
+.container__10dc7, .header__60bef, .scrollerContainer_bf5dbd .container__7590f {
+  background-color: var(--background-primary) !important;
+}
 /* Add danger colours to dangerous user actions */
 #user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
 #user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active {
@@ -165,7 +169,7 @@ div[class*="lineClamp2Plus"] {
 	background-color: #fff;
 	border-radius: 0;
 }
-/*replace edit symbol*/
+/*replace edit symbol 
 .edited_b20dd9 {color: rgba(0,0,0,0)}
 .edited_b20dd9::before {
         content: "(✎)";
@@ -300,7 +304,7 @@ path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 }
 /* edited text */
 .timestamp_cdbd93:not(.timestampInline__470e0, .timestampVisibleOnHover_e8cc6d) time::after {
-    content: " (" attr(aria-label) ")";
+    content: "✎ (" attr(aria-label) ")";
     color: var(--text-muted);
     font-size: 0.625rem;
     font-weight: 400;
