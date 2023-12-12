@@ -98,10 +98,6 @@ div[class*="lineClamp2Plus"] {
 [class*=messageContent] strong {
     color: #946b4a;
 }
-/* fix for Channels and roles menu */
-.container__10dc7, .header__60bef, .scrollerContainer_bf5dbd .container__7590f {
-  background-color: var(--background-primary) !important;
-}
 /* Add danger colours to dangerous user actions */
 #user-context-close-dm, #user-context-remove-friend, #user-context-block { color: var(--status-danger) }
 #user-context-close-dm:active, #user-context-remove-friend:active, #user-context-block:active {
