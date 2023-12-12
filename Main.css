@@ -1,9 +1,6 @@
 /* Minimal Addon cards */
 @import url("https://minidiscordthemes.github.io/MinimalAddonCards/MinimalAddonCards.theme.css");
 
-/* Better Nitro Profile Border 
-@import url("https://dablulite.github.io/css-snippets/BetterNitroProfileBorder/import.css");
-
 /* Clean User Pop Out */
 @import url(https://raw.githubusercontent.com/lumap/css-snippets/main/clean-user-popout.css);
 
@@ -28,9 +25,6 @@
 /* Account Dettails Grid - DaBluLite*/
 @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
 
-/* Avatar Decor Checkmark 
-@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Avidecorcheckmarks.css");
-
 /* Guildlist Change */
 @import url("https://seele1306.github.io/Snippets/GuildList/import.css");
 
@@ -40,13 +34,12 @@
 /* Toolbar Hide */
 @import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/snippets/Toolbarhideupdated.css"); 
 
-/* Better Profiles 
-@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/BetterProfiles/import.css");
-
-/* USRPFP REBORN 
+/* USRPFP REBORN */
 @import url("//raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
+
 /* Consistent chatbar */
 @import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
+
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
 :root {
@@ -79,6 +72,13 @@
 --guild-item-radius: 4px; /* 50px for round */
 --guild-item-spacing: 4px;
 }
+/* fix for roles and channels */
+.container__10dc7, .header__60bef, .scrollerContainer_bf5dbd .container__7590f, .theme-dark .scrollerContainer_bf5dbd, .theme-dark .emptyPage__3e15d, .theme-dark .container__7590f  {
+  background-color: var(--home-background) !important;
+}
+.theme-dark .innerHeader_afca2f:after {
+    display: none;
+}
 /*show full user bio*/
 div[class*="lineClamp2Plus"] {
     display: block;
@@ -108,7 +108,13 @@ div[class*="lineClamp2Plus"] {
     background-color: var(--button-danger-background);
     color: var(--white-500);   
 }
-/* ShowMeYourName plugin */
+/* avatar decor vanish on hover */
+[class^=avatar_]:hover + [class^=avatarDecoration_],
+[class^=avatar_]:hover [class^=avatarDecoration_]
+ { opacity: 0 !important; }
+[class^=avatarDecoration_]
+ { transition: .3s opacity; }
+/* ShowMeYourName @ plugin */
 .vc-smyn-suffix:before {
     content: "| @" !important
 }
