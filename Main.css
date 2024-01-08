@@ -7,7 +7,7 @@
 /* Settings Icons 
 @import url("https://minidiscordthemes.github.io/SettingsIcons/SettingsIcons.theme.css");
 
-/* settings modal */
+/* settings modal 
 @import url("https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/SettingsModal/SettingsModal.theme.css");
 
 /* message actions hider 
@@ -368,3 +368,26 @@ path[fill="var(--status-danger)"] /* vencord game activity strikethrough */ {
 #app-mount .repliedMessage_e2bf4a + .contents_f41bb2 .header__39b23 {
   margin-bottom: 32px;
 }
+/* better settings modal/nuke settings anims*/
+[class^=standardSidebarView_]
+ { backdrop-filter: blur(30px);
+   top: 0 !important;
+   opacity: 1 !important; }
+.layer__2efaa + .layer__2efaa
+ { border-radius: 10px !important;
+   background: oklch(.2 0 0 /.5) !important;
+   box-shadow: 5px 5px 25px oklch(0 0 0 /.7) !important;
+   border: 1px solid oklch(1 0 0 /.2);
+   width: 1100px !important;
+   height: 80vh !important;
+   margin: auto !important;
+   padding: 0 !important;
+   opacity: 1 !important;
+   transform: unset !important; }
+#app-mount .baseLayer__8fda3 /*keep view under settings*/
+ { opacity: 1 !important;
+   transform: unset !important; }
+.layer__2efaa[aria-hidden="false"] + .layer__2efaa[aria-hidden="false"]
+ { display: none; } /*fixes closing delay*/
+.layers__1c917>.layer__2efaa.animating__27211
+ { will-change: unset !important; }
