@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'Chippyfont';
+    src: url('Chippyfont-Regular.woff2') format('woff2'),
+        url('Chippyfont-Regular.woff') format('woff'),
+        url('Chippyfont-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: 'Cascadia Code';
     src: url('CascadiaCode-Regular.woff2') format('woff2'),
         url('CascadiaCode-Regular.woff') format('woff');
@@ -30,12 +39,4 @@
     font-style: italic;
     font-display: swap;
 }
-@font-face {
-    font-family: 'Chippyfont';
-    src: url('Chippyfont-Regular.woff2') format('woff2'),
-        url('Chippyfont-Regular.woff') format('woff'),
-        url('Chippyfont-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+
