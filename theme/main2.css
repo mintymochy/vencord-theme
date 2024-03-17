@@ -1,1 +1,81 @@
+/* Spotify Profile Activity Redesign - DaBluLite */
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
+/* User Area Reimagined - DaBlueLite */
+@import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
+/* Better Status Picker */
+@import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
+/* message actions hider */
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
 
+/* My Custom Font */
+@import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
+
+:root {
+    --font-primary: "Chippyfont";
+    --font-code: "Cascadia Code";
+}
+
+/* server list ting */
+.item_f9d377 {
+    max-height: 40px;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+/* show masked links */
+.anchor_c8ddc0[title$=")"]::after {
+    font-size: 0.7rem;
+    content: " (" attr(href) ")";
+    filter: grayscale(0.4);
+}
+
+/* removes the "edited" text */
+[class^="edited-"] {
+    display: none;
+}
+
+.message__80c10 {
+    margin-left: 16px;
+    border-radius: 10px;
+}
+
+/* ShowMeYourName @ plugin */
+.vc-smyn-suffix:before {
+    content: "| @" !important
+}
+
+.vc-smyn-suffix:after {
+    content: "" !important
+}
+
+.vc-smyn-suffix {
+    color: currentColor !important;
+    opacity: 0.5
+}
+
+/*No profile effects*/
+[class*="profileEffects"] {
+    display: none;
+}
+
+/*show full user bio*/
+div[class*="lineClamp2Plus"] {
+    display: block;
+}
+
+/* Automatically resizing gif picker */
+:root {
+    /* Change me! */
+    --expression-picker-aspect-ratio: 1.125 / 1;
+}
+
+[class*="expressionPickerPositionLayer_"] [class*="positionContainer_"] {
+    height: calc(100vh - 128px);
+}
+
+[class*="expressionPickerPositionLayer_"] [class*="drawerSizingWrapper_"] {
+    max-height: 100%;
+    bottom: 0px;
+    height: auto;
+    aspect-ratio: var(--expression-picker-aspect-ratio);
+}
