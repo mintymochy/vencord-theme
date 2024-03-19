@@ -79,12 +79,11 @@ div[class*="lineClamp2Plus"] {
     height: auto;
     aspect-ratio: var(--expression-picker-aspect-ratio);
 }
-
 /*chat bar resizers*/
 .buttons_ce5b56 {
     margin: 6px 6px 6px auto !important;
     margin-left: auto;
-    max-width: calc(40px * 6);
+    max-width: calc(40px * 3);
     min-width: calc(40px * 2);
     width: min-content;
     display: flex;
@@ -117,21 +116,4 @@ div[class*="lineClamp2Plus"] {
 .textArea__74543 {
     width: fit-content;
     flex-grow: 1.01;
-}
-
-/* Hide Nitro gift button */
-button[aria-label="Send a gift"] {
-    display: none;
-}
-
-button[aria-label="Open sticker picker"] {
-    display: none;
-}
-
-.expression-picker-chat-input-button buttonContainer__8b164:has[aria-label="Open sticker picker"] {
-    display: none;
-}
-
-.expression-picker-chat-input-button:has([aria-label="Open GIF picker"]) {
-    display: none;
 }
