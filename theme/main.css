@@ -178,6 +178,11 @@ div[class*="lineClamp2Plus"] {
     object-fit: contain !important;
 }
 
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+  display: none;
+}
+
 /*chat bar resizers*/
 .buttons_ce5b56 {
     margin: 6px 6px 6px auto !important;
