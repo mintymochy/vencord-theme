@@ -5,7 +5,7 @@
 /* Better Status Picker */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
 /* message actions hider */
-@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/MessageSection/v2/import-legacy.css");
 
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
@@ -84,7 +84,7 @@ div[class*="lineClamp2Plus"] {
     height: auto;
     aspect-ratio: var(--expression-picker-aspect-ratio);
 }
-/*chat bar resizers*/
+/*chat bar resizers
 .buttons_ce5b56 {
     margin: 6px 6px 6px auto !important;
     margin-left: auto;
