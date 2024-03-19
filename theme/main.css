@@ -2,7 +2,7 @@
 @import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
 
 /* message actions hider */
-@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/MessageSection/v2/import-legacy.css");
 
 /* settings modal */
 @import url(//mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
@@ -30,7 +30,8 @@
 
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
-
+@import url(https://seele1306.github.io/Snippets/MessageSection/import.css);
+/* accent colour option has been removed */
 :root {
     --font-primary: "Chippyfont";
     --font-code: "Cascadia Code";
@@ -183,7 +184,7 @@ button[aria-label="Send a gift"] {
   display: none;
 }
 
-/*chat bar resizers*/
+/*chat bar resizers
 .buttons_ce5b56 {
     margin: 6px 6px 6px auto !important;
     margin-left: auto;
