@@ -22,6 +22,11 @@
     border-radius: 0;
 }
 
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+  display: none;
+}
+
 /* show masked links */
 .anchor_c8ddc0[title$=")"]::after {
     font-size: 0.7rem;
