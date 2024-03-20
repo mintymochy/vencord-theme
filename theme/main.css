@@ -1,3 +1,6 @@
+/*accent recolor*/
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/ChangeColor/AccentColor/import.css");
+
 /*better quick switcher*/
 @import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
 
@@ -25,83 +28,17 @@
 /* Better Status Picker */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
 
-/* Discord recolor */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
-
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
 /* accent colour option has been removed */
 :root {
-    --font-primary: "Chippyfont";
+    --font-primary: "Cascadia Code";
     --font-code: "Cascadia Code";
 }
-
 :root {
-    --font: "Cascadia Code";
-    --font-code: "Cascadia Code";
-
-    --vspr-bg-base: rgb(16, 16, 16);
-    /* #101010 */
-    --vspr-bg-subtle: rgb(88, 88, 88);
-    /* #1c1c1c */
-    --vspr-fg-base: rbg(255, 255, 255);
-    /* #ffffff */
-    --vspr-fg-subtle: rgb(182, 182, 182);
-    /* #a0a0a0 */
-    --vspr-accent: rgb(255, 199, 153);
-    /* #ffc799 */
-    --vspr-fg-err: rgb(255, 128, 128);
-    /* #ff8080*/
-    --vspr-fg-suc: rgb(153, 255, 228);
-    /* #99ffe4*/
-
-    /* END VESPER COLORS                                          */
-
-    --accentcolor: 85, 85, 85;
-    /*    Blurple            -    default:    88,101,242        -    hex:    #5865f2        */
-    --accentcolor2: 85, 85, 85;
-    /*    Boostpink        -    default:    255,115,250        -    hex:    #ff73fa        */
-    --linkcolor: 255, 199, 153;
-    /*    Link Color        -    default:    0,176,244        -    hex:    #00b0f4        */
-    --mentioncolor: 255, 199, 153;
-    /*    Highlight Color        -    default:    250,166,26        -    hex:    #faa61a        */
-    --successcolor: 153, 255, 228;
-    /*    Success Color        -    default:    59,165,92        -    hex:    #3ba55c        */
-    --warningcolor: 255, 199, 153;
-    /*    Warning Color        -    default:    250,166,26        -    hex:    #faa61a        */
-    --dangercolor: 255, 128, 128;
-    /*    Danger Color        -    default:    237,66,69        -    hex:    #ed4245        */
-
-    --textbrightest: 255, 255, 255;
-    /*    Text Color 1        -    default:    255,255,255        -    hex:    #ffffff        */
-    --textbrighter: 190, 190, 190;
-    /*    Text Color 2        -    default:    220,221,222        -    hex:    #dcddde        */
-    --textbright: 180, 180, 180;
-    /*    Text Color 3        -    default:    185,187,190        -    hex:    #b9bbbe        */
-    --textdark: 180, 180, 180;
-    /*    Text Color 4        -    default:    142,146,151        -    hex:    #8e9297        */
-    --textdarker: 140, 140, 140;
-    /*    Text Color 5        -    default:    114,118,125        -    hex:    #72767d        */
-    --textdarkest: 126, 126, 126;
-    /*    Text Color 6        -    default:    79,84,92        -    hex:    #4f545c        */
-
-    --backgroundaccent: 40, 40, 40;
-    /*    Background Accent    -    default:    64,68,75        -    hex:    #40444b        */
-    --backgroundprimary: 16, 16, 16;
-    /*    Background 1        -    default:    54,57,63        -    hex:    #36393f        */
-    --backgroundsecondary: 16, 16, 16;
-    /*    Background 2        -    default:    47,49,54        -    hex:    #2f3136        */
-    --backgroundsecondaryalt: 16, 16, 16;
-    /*    Background 3        -    default:    41,43,47        -    hex:    #292b2f        */
-    --backgroundtertiary: 16, 16, 16;
-    /*    Background 4        -    default:    32,34,37        -    hex:    #202225        */
-    --backgroundfloating: 28, 28, 28;
-    /*    Background Elevated    -    default:    24,25,28        -    hex:    #18191c        */
+--brand-experiment: hsl(27.1,100%,80%);
 }
 
-.markup:not(code) {
-    font-size: 20px !important;
-}
 
 /* Automatically resizing gif picker */
 :root {
