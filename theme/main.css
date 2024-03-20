@@ -37,7 +37,7 @@
 }
 
 :root {
-    --font: "Chippyfont";
+    --font: "Cascadia Code";
     --font-code: "Cascadia Code";
 
     --vspr-bg-base: rgb(16, 16, 16);
@@ -550,4 +550,10 @@ div[style="display: flex; justify-content: space-between; align-items: center; m
 
 .vc-rdb-view .wrapper_c727b6 {
   scale: 0.825;
+}
+.codeContainer__1ded4,.shiki-container{
+  width:fit-content;
+}
+.nonMediaAttachmentsContainer_ca7b77 .shiki-container {
+  width:initial;
 }
