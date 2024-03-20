@@ -5,14 +5,9 @@
 /* Better Status Picker */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
 /* message actions hider */
-<<<<<<< HEAD
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/MessageSection/v2/import-legacy.css");
-
-=======
-@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
 /*better quick switcher*/
 @import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
->>>>>>> fc5c2e5 (added new quickswticher)
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
 
@@ -30,7 +25,7 @@
 
 /* Hide Nitro gift button */
 button[aria-label="Send a gift"] {
-  display: none;
+    display: none;
 }
 
 /* show masked links */
@@ -90,6 +85,7 @@ div[class*="lineClamp2Plus"] {
     height: auto;
     aspect-ratio: var(--expression-picker-aspect-ratio);
 }
+
 /*chat bar resizers
 .buttons_ce5b56 {
     margin: 6px 6px 6px auto !important;
