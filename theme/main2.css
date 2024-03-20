@@ -5,8 +5,14 @@
 /* Better Status Picker */
 @import url("https://dablulite.github.io/css-snippets/BetterStatusPicker/import.css");
 /* message actions hider */
+<<<<<<< HEAD
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/MessageSection/v2/import-legacy.css");
 
+=======
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
+/*better quick switcher*/
+@import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
+>>>>>>> fc5c2e5 (added new quickswticher)
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
 

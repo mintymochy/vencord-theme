@@ -1,6 +1,9 @@
 /* Consistent chatbar */
 @import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
 
+/*better quick switcher*/
+@import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
+
 /* message actions hider */
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/MessageSection/v2/import-legacy.css");
 
