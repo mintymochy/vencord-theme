@@ -4,8 +4,11 @@
 /*better quick switcher*/
 @import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
 
+/*better profiles*/
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/BetterProfiles/import-legacy.css");
+
 /* message actions hider */
-@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/MessageSection/v2/import.css");
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/MessageSection/v2/import-legacy.css");
 
 /* settings modal */
 @import url(//mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
