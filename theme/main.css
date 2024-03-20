@@ -33,7 +33,6 @@
 
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
-@import url(https://seele1306.github.io/Snippets/MessageSection/import.css);
 /* accent colour option has been removed */
 :root {
     --font-primary: "Chippyfont";
