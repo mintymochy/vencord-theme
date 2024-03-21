@@ -1,0 +1,11 @@
+/*accent recolor*/
+@import url("https://dablulite.github.io/css-snippets/AccentSwap/import.css");
+
+/*other colors*/
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/ChangeColor/OtherColors/import.css");
+
+:root:root {
+    --accent-h: 210;
+    --accent-s: 34%;
+    --accent-l: 63.1%;
+}
