@@ -1,5 +1,8 @@
 /*accent recolor*/
-@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/ChangeColor/AccentColor/import.css");
+@import url("https://dablulite.github.io/css-snippets/AccentSwap/import.css");
+
+/*other colors*/
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/ChangeColor/OtherColors/import.css");
 
 /*better quick switcher*/
 @import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
@@ -13,8 +16,8 @@
 /* Consistent chatbar */
 @import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
 
-/* Guildlist Change */
-@import url("https://seele1306.github.io/Snippets/GuildList/import.css");
+/* Guildlist Change 
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/GuildList/import-legacy.css");
 
 /* message actions hider */
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
@@ -35,11 +38,11 @@
     --font-primary: "Cascadia Code";
     --font-code: "Cascadia Code";
 }
-:root {
---brand-experiment: hsl(27.1,100%,80%);
+:root:root {
+    --accent-h: 210;
+    --accent-s: 34%;
+    --accent-l: 63.1%;
 }
-
-
 /* Automatically resizing gif picker */
 :root {
     /* Change me! */
@@ -494,3 +497,4 @@ div[style="display: flex; justify-content: space-between; align-items: center; m
 .nonMediaAttachmentsContainer_ca7b77 .shiki-container {
   width:initial;
 }
+/*better profiles end*/
