@@ -30,3 +30,6 @@
 
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
+
+/*super user area */
+@import url(//dablulite.github.io/css-snippets/Omnibar/import.css);
