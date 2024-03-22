@@ -1,6 +1,9 @@
 /* Consistent chatbar */
 @import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
 
+/*better profile*/
+@import url("https://raw.githubusercontent.com/mintymochy/vencord-theme/main/theme/betterprofiles.css");
+
 /*better quick switcher*/
 @import url("https://dablulite.github.io/css-snippets/QuickSwitchV2/import.css");
 
