@@ -30,3 +30,6 @@
 
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
+
+/*better profiles*/
+@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/BetterProfiles/import-legacy.css");
