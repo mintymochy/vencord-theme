@@ -83,6 +83,13 @@ div[class*="lineClamp2Plus"] {
 button[aria-label="Send a gift"] {
     display: none;
 }
+/*headers*/
+[class*=messageContent] :is(h1, h2, h3) {
+  color: salmon;
+}
+[class*=messageContent] strong {
+    color: lightsalmon;
+}
 
 /*chat bar resizers
 .buttons_ce5b56 {
