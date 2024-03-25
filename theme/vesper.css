@@ -14,7 +14,7 @@
 	/* color of mentions and messages that mention you */
 	--mention: hsla(26.6, 55%, 68.6%, 0.1);
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: hsla(26.6, 55%, 68.6% 0.05);
+	--mention-hover: hsla(26.6, 55%, 68.6%, 0.05);
 }
 
 .activeButtonChild__6e162 {
@@ -46,10 +46,11 @@ path[fill='rgba(35, 165, 90, 1)'] {
 	filter: hue-rotate(304deg) saturate(0.84) brightness(1.2);
 }
 rect[fill='#23a55a'] {
-	fill: var(--online-indicator) !important;
+	fill: var(#23a55a) !important;
 }
 
 .theme-dark {
+    --text-link: #dbac84;
 	--background-mentioned: var(--mention);
 	--background-mentioned-hover: var(--mention-hover);
 	--control-brand-foreground: var(--accent-2);
