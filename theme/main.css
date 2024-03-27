@@ -90,6 +90,8 @@ button[aria-label="Send a gift"] {
 [class*=messageContent] strong {
     color: lightsalmon;
 }
+/*fix image thing */
+[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
 
 /*chat bar resizers
 .buttons_ce5b56 {
