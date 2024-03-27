@@ -19,8 +19,8 @@
 /* message actions hider */
 @import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/MessageSection/v2/import.css");
 
-/* User Area Reimagined - DaBlueLite */
-@import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
+/* User Area 2 - DaBlueLite */
+@import url("https://dablulite.github.io/css-snippets/CyanUI2-Ports/UserArea2/import.css");
 
 /* Spotify Profile Activity Redesign - DaBluLite */
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/SpotifyRedesign.css");
@@ -31,5 +31,5 @@
 /* My Custom Font */
 @import url(https://raw.githubusercontent.com/mintymochy/vencord-theme/main/font/font.css);
 
-/*better profiles*/
-@import url("https://raw.githubusercontent.com/SEELE1306/CSS-Snippets/main/Snippets/BetterProfiles/import-legacy.css");
+/*bootup screen*/
+@import url("https://dablulite.github.io/css-snippets/CyanUI2-Ports/Bootup/import.css");
