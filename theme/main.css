@@ -41,7 +41,7 @@ div[class*="lineClamp2Plus"] {
     display: none;
 }
 
-.message_ccca67 {
+.message__80c10 {
     margin-left: 16px;
     border-radius: 10px;
 }
@@ -83,12 +83,8 @@ div[class*="lineClamp2Plus"] {
 button[aria-label="Send a gift"] {
     display: none;
 }
-/*headers*/
-[class*=messageContent] :is(h1, h2, h3) {
-  color: salmon;
-}
-[class*=messageContent] strong {
-    color: lightsalmon;
-}
+
 /*fix image thing */
-[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
+[class^="imageWrapper_"] img[class^="lazyImg"] { 
+    object-fit: contain !important; 
+}
