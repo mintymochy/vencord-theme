@@ -70,7 +70,7 @@ div[class*="lineClamp2Plus"] {
 /* server list ting */
 .item_f9d377 {
   max-height: 40px;
-  background-color: #fff;
+  background-color: #FFF;
   border-radius: 0;
 }
 
@@ -86,11 +86,11 @@ button[aria-label="Send a gift"] {
 
 /*headers*/
 [class*=messageContent] :is(h1, h2, h3) {
-  color: salmon;
+  color: #99FFE4;
 }
 
 [class*=messageContent] strong {
-  color: lightsalmon;
+  color: #FFC799;
 }
 
 /*fix image thing */
@@ -155,4 +155,48 @@ button[aria-label="Send a gift"] {
 
 [class*="unread_"] {
   display: none;
+}
+
+/*emoji skew and large emojis*/
+em .emoji {
+  transform: skew(-14deg);
+}
+
+.emoji.jumboable {
+  /* 96px is the size of the actual image, anything higher will be blurry */
+  width: 64px;
+  height: 64px;
+}
+
+/*     Inline code, not blocks      */
+[class*="scrollbarGhostHairline_"] {
+  font-size: 1rem !important;
+  line-height: 1.375rem !important;
+  font-family: var(--font-primary) !important;
+
+  background: none !important;
+  border: none !important;
+
+  padding: 0em !important;
+}
+
+[class*="codeActions_"] {
+  display: none !important;
+}
+
+[class="inline"] {
+  font-size: 100% !important;
+  font-family: var(--font-primary) !important;
+  background: none !important;
+  padding: 0em !important;
+}
+
+[class*="codeLine_"] {
+  font-size: 100% !important;
+  font-family: var(--font-primary) !important;
+}
+
+pre:has([class*="codeContainer_"]) {
+  margin-top: 0px !important;
+  max-width: 100% !important;
 }
