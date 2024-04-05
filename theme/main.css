@@ -41,7 +41,7 @@ div[class*="lineClamp2Plus"] {
     display: none;
 }
 
-.message__80c10 {
+.message_ccca67 {
     margin-left: 16px;
     border-radius: 10px;
 }
@@ -83,8 +83,39 @@ div[class*="lineClamp2Plus"] {
 button[aria-label="Send a gift"] {
     display: none;
 }
-
+/*headers*/
+[class*=messageContent] :is(h1, h2, h3) {
+  color: salmon;
+}
+[class*=messageContent] strong {
+    color: lightsalmon;
+}
 /*fix image thing */
-[class^="imageWrapper_"] img[class^="lazyImg"] { 
-    object-fit: contain !important; 
+[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
+.layerContainer_a2fcaa:has(.openedItemTextOpened__2afcd) {
+  display: none;
+}
+/* Custom Emoji Button */
+.sprite__294b3.spriteColored__9a869 {
+    background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+    background-size: 24px;
+}
+
+.sprite__294b3.spriteGreyscale__750f4 {
+    mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
+    mask-size: 24px;
+}
+[class^="accountProfilePopoutWrapper"] .section__62b44,
+.userPopoutInner_e90432:has(#account) > *:not(:has(#account)),
+.userPopoutOverlayBackground_bf6444:has(#account) > *:not(#account) {
+  display: none !important;
+}
+
+[class^="accountProfilePopoutWrapper_"] {
+  left: 0;
+}
+
+[class^="accountProfilePopoutWrapper_"] [class*="userPopout"] {
+  margin: 0;
+  width: fit-content;
 }
