@@ -1,113 +1,121 @@
 /* accent colour option has been removed */
 :root {
-    --font-primary: "Cascadia Code";
-    --font-code: "Cascadia Code";
+  --font-primary: "Cascadia Code";
+  --font-code: "Cascadia Code";
 }
 
 /* Automatically resizing gif picker */
 :root {
-    /* Change me! */
-    --expression-picker-aspect-ratio: 1.125 / 1;
+  /* Change me! */
+  --expression-picker-aspect-ratio: 1.125 / 1;
 }
 
 [class*="expressionPickerPositionLayer_"] [class*="positionContainer_"] {
-    height: calc(100vh - 128px);
+  height: calc(100vh - 128px);
 }
 
 [class*="expressionPickerPositionLayer_"] [class*="drawerSizingWrapper_"] {
-    max-height: 100%;
-    bottom: 0px;
-    height: auto;
-    aspect-ratio: var(--expression-picker-aspect-ratio);
+  max-height: 100%;
+  bottom: 0px;
+  height: auto;
+  aspect-ratio: var(--expression-picker-aspect-ratio);
 }
 
 /* Fixes soundmoji picker which has a hardcoded height */
 [class*="expressionPickerPositionLayer_"] [class*="soundboardContainer_"] [class*="picker_"] {
-    height: 100%;
+  height: 100%;
 }
 
 /*No profile effects*/
 [class*="profileEffects"] {
-    display: none;
+  display: none;
 }
 
 /*show full user bio*/
 div[class*="lineClamp2Plus"] {
-    display: block;
+  display: block;
 }
 
 /* removes the "edited" text */
 [class^="edited-"] {
-    display: none;
+  display: none;
 }
 
 .message_ccca67 {
-    margin-left: 16px;
-    border-radius: 10px;
+  margin-left: 16px;
+  border-radius: 10px;
 }
 
 /* ShowMeYourName @ plugin */
 .vc-smyn-suffix:before {
-    content: "| @" !important
+  content: "| @" !important
 }
 
 .vc-smyn-suffix:after {
-    content: "" !important
+  content: "" !important
 }
 
 .vc-smyn-suffix {
-    color: currentColor !important;
-    opacity: 0.5
+  color: currentColor !important;
+  opacity: 0.5
 }
 
 /* show masked links */
 .anchor_c8ddc0[title$=")"]::after {
-    font-size: 0.7rem;
-    content: " (" attr(href) ")";
-    filter: grayscale(0.4);
+  font-size: 0.7rem;
+  content: " (" attr(href) ")";
+  filter: grayscale(0.4);
 }
 
 /* server list ting */
 .item_f9d377 {
-    max-height: 40px;
-    background-color: #fff;
-    border-radius: 0;
+  max-height: 40px;
+  background-color: #fff;
+  border-radius: 0;
 }
 
 /*fix mosaic zoom*/
 [class^="imageWrapper_"] img[class^="lazyImg"] {
-    object-fit: contain !important;
+  object-fit: contain !important;
 }
 
 /* Hide Nitro gift button */
 button[aria-label="Send a gift"] {
-    display: none;
+  display: none;
 }
+
 /*headers*/
 [class*=messageContent] :is(h1, h2, h3) {
   color: salmon;
 }
+
 [class*=messageContent] strong {
-    color: lightsalmon;
+  color: lightsalmon;
 }
+
 /*fix image thing */
-[class^="imageWrapper_"] img[class^="lazyImg"] { object-fit: contain !important; }
+[class^="imageWrapper_"] img[class^="lazyImg"] {
+  object-fit: contain !important;
+}
+
 .layerContainer_a2fcaa:has(.openedItemTextOpened__2afcd) {
   display: none;
 }
+
 /* Custom Emoji Button */
 .sprite__294b3.spriteColored__9a869 {
-    background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
-    background-size: 24px;
+  background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+  background-size: 24px;
 }
 
 .sprite__294b3.spriteGreyscale__750f4 {
-    mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
-    mask-size: 24px;
+  mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
+  mask-size: 24px;
 }
+
 [class^="accountProfilePopoutWrapper"] .section__62b44,
-.userPopoutInner_e90432:has(#account) > *:not(:has(#account)),
-.userPopoutOverlayBackground_bf6444:has(#account) > *:not(#account) {
+.userPopoutInner_e90432:has(#account)>*:not(:has(#account)),
+.userPopoutOverlayBackground_bf6444:has(#account)>*:not(#account) {
   display: none !important;
 }
 
@@ -119,10 +127,11 @@ button[aria-label="Send a gift"] {
   margin: 0;
   width: fit-content;
 }
+
 /*better channel selectors*/
 :is(.containerDefault_ae2ea4.selected__11b62, .modeUnreadImportant__35358) .icon__67ab4,
 .selected__7f4cb .layout_bb8e67,
-.channel__0aef5.container-32HW5s > .interactiveSelected__689f0,
+.channel__0aef5.container-32HW5s>.interactiveSelected__689f0,
 .navButtonActive__0c878 {
   background: var(--brand-experiment-50a);
 }
