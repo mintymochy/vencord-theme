@@ -6,7 +6,7 @@
 	/* color of accented buttons */
 	--accent-3: hsl(164.1, 100%, 80%);
 	/* color of accented buttons when hovered */
-	--accent-4: hsl(164.1, 100%, 80%);
+	--accent-4: hsl(26.6, 55%, 68.6%);
 	/* color of accented buttons when clicked */
 	--accent-5: hsl(26.6, 55%, 68.6%);
 	/* color of green online dot, change to #23a55a for default green */
