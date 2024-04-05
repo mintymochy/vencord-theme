@@ -4,17 +4,17 @@
 	/* color of unread dividers and some indicators */
 	--accent-2: hsl(26.6, 55%, 68.6%);
 	/* color of accented buttons */
-	--accent-3: hsl(26.6, 55%, 68.6%);
+	--accent-3: hsl(164.1, 100%, 80%);
 	/* color of accented buttons when hovered */
-	--accent-4: hsl(26.6, 55%, 68.6%);
+	--accent-4: hsl(164.1, 100%, 80%);
 	/* color of accented buttons when clicked */
 	--accent-5: hsl(26.6, 55%, 68.6%);
 	/* color of green online dot, change to #23a55a for default green */
 	--online-indicator: var(--accent-2);
 	/* color of mentions and messages that mention you */
-	--mention: hsla(26.6, 55%, 68.6%, 0.1);
+	--mention: hsla(164.1, 100%, 80%, 0.1);
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: hsla(26.6, 55%, 68.6%, 0.05);
+	--mention-hover: hsla(164.1, 100%, 80%, 0.05);
 }
 
 .activeButtonChild__58171 {
