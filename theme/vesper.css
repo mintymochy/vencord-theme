@@ -1,8 +1,8 @@
 :root {
 	/* color of links */
-	--accent-1: hsl(26.6, 55%, 68.6%);
+	--accent-1: hsl(164.1, 100%, 80%);
 	/* color of unread dividers and some indicators */
-	--accent-2: hsl(164.1, 100%, 80%);
+	--accent-2: hsl(26.6, 55%, 68.6%);
 	/* color of accented buttons */
 	--accent-3: hsl(26.6, 55%, 68.6%);
 	/* color of accented buttons when hovered */
@@ -76,7 +76,7 @@ rect[fill='#23a55a'] {
 }
 
 .theme-dark {
-	--text-link: #dbac84;
+	--text-link: #99FFE4;
 	--background-mentioned: var(--mention);
 	--background-mentioned-hover: var(--mention-hover);
 	--control-brand-foreground: var(--accent-2);
