@@ -1,4 +1,4 @@
-/* accent colour option has been removed */
+/* font thing */
 :root {
   --font-primary: "Cascadia Code";
   --font-code: "Cascadia Code";
@@ -133,7 +133,7 @@ button[aria-label="Send a gift"] {
 .selected__7f4cb .layout_bb8e67,
 .channel__0aef5.container-32HW5s>.interactiveSelected__689f0,
 .navButtonActive__0c878 {
-  background: hsla(164.1, 100%, 80%, 0.8);
+  background: hsla(0, 0%, 41%, 0.9);
 }
 
 .icon__67ab4 {
@@ -145,12 +145,12 @@ button[aria-label="Send a gift"] {
 }
 
 :is(.containerDefault_ae2ea4.selected__11b62, .modeUnreadImportant__35358) .icon__67ab4 {
-  color: #000;
+  color: #fff;
 }
 
 .containerDefault_ae2ea4:hover .icon__67ab4 {
-  color: #000;
-  background: hsla(164, 100%, 85%, 0.9);
+  color: #fff;
+  background: hsla(0, 0%, 41%, 0.9);
 }
 
 [class*="unread_"] {
@@ -199,4 +199,26 @@ em .emoji {
 pre:has([class*="codeContainer_"]) {
   margin-top: 0px !important;
   max-width: 100% !important;
+}
+
+/*---Lock Icon Recolor---*/
+.icon__67ab4:has(path[d^="M16 4h.5v"]) path[d^="M16 4h.5v"] {
+  fill: #FFC799 !important;
+  border: 1px solid rebeccapurple !important;
+}
+
+/*---'NSFW' Icon Recolor---*/
+.icon__67ab4:has(path[d^="M18.09 1.63"]) path[d^="M18.09 1.63"] {
+  fill: var(--text-danger) !important;
+  border: 1px solid rebeccapurple !important;
+}
+
+/*chat recoloring */
+.messageContent_abea64 {
+  color: #99FFE4;
+}
+
+.message__7e601 .messageContent_abea64,
+.username__0b0e7 {
+  color: #FFC799;
 }
