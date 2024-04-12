@@ -12,9 +12,9 @@
 	/* color of green online dot, change to #23a55a for default green */
 	--online-indicator: var(--accent-2);
 	/* color of mentions and messages that mention you */
-	--mention: hsla(164.1, 100%, 80%, 0.1);
+	--mention: hsla(26.6, 55%, 68.6%, 0.1);
 	/* color of mentions and messages that mention you when hovered */
-	--mention-hover: hsla(164.1, 100%, 80%, 0.05);
+	--mention-hover: hsla(26.6, 55%, 68.6%, 0.05);
 }
 
 .activeButtonChild__58171 {
